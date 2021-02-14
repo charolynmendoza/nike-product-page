@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import SizeButton from "../components/SizeButton";
 import LargeButton from "../components/LargeButton";
@@ -47,7 +47,7 @@ export default function Item() {
             inverse={true}
             onClick={() => console.log("item added to favorites")}
           >
-            Favorite <img src={heart} />
+            Favorite <img src={heart} alt="sneakers" />
           </LargeButton>
         </SizeContainer>
       </Content>
